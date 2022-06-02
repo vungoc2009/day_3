@@ -42,8 +42,8 @@ public class TeachingService {
             do {
                 int idSubject = sc.nextInt();
                 for (int j = 0; j < MainRun.subjects.length; j++) {
-                    if (MainRun.subjects[i] != null && MainRun.subjects[i].getId() == idSubject) {
-                        subject = MainRun.subjects[i];
+                    if (MainRun.subjects[j] != null && MainRun.subjects[j].getId() == idSubject) {
+                        subject = MainRun.subjects[j];
                         break;
                     }
                 }
